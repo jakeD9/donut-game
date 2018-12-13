@@ -1,0 +1,45 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Feed Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+
+</head>
+<body background="assets/images/background.png">
+
+    <h1>Feed Me Donuts</h1>
+
+    <section id="rules">
+        <p>I am hungry for donuts. My hunger is level is going to vary randomly.</p>
+        <p>There are four types of donuts that I like to eat. Click on them to feed me.</p>
+        <p>Sometimes I prefer certain donuts over others. Make sure I don't eat too much or I might gain weight.</p>
+        <p>Try to match my hunger level with my preference for donuts.</p>
+    </section>
+    
+    <div id="display">
+        <div id="hunger-level"></div>
+        <div id="win-loss">
+            <div id="wins">Wins: 0</div>
+            <div id="losses">Losses: 0</div>
+        </div>
+    </div>
+
+    <section id="scores">
+        <div id="donut-area">
+            <div class="donuts">
+                <img src="assets/images/donut1.png" id="donut1" style="height:100px">
+                <img src="assets/images/donut2.png" id="donut2" style="height:100px">
+                <img src="assets/images/donut3.png" id="donut3" style="height:100px">
+                <img src="assets/images/donut4.png" id="donut4" style="height:100px">
+            </div>
+        </div>
+        <div id="your-score">Score:</div>
+        <div id="score-counts"></div>
+    </section>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/game.js"></script>
+</body>
+</html>
